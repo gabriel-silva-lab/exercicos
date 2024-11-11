@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fotos flexiveis</title>
+</head>
+<body>
+    <h1>fotos flexiveis</h1>
+    <p>Se não der certo dessa vez eu choro</p>
+
+    <picture>
+        <source media="(min-width: 700px)" srcset="imagens/p.png" type="image/png">
+        <source media="(min-width: 1000px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender reproduzir audios em HTML5</p>
+
+    <audio preload="metadata" controls>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+    </audio>
+    <p>infelismente seu navegador não consegui reproduzir audio, clique <a href="midia/happy-mistake.mp3"  >aqui</a> para instalalo</p>
+</body>
+</html>
