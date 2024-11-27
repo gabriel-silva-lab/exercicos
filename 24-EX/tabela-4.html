@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            margin: auto;
+            width: 600px;
+            border-collapse: collapse;
+        }
+        caption{
+           font-size: 1.4em;
+           font-weight: bolder;
+           padding: 10px; 
+        }
+        table th,td{
+            border: 2px solid black;
+            padding: 8px;
+        }
+        
+        .cnome{
+            background-color: gray;
+        }
+        .idade{
+            background-color: blue;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <table>
+        
+        <colgroup>
+
+         <col class="cnome" span="2">
+         <col class="idade" span="2">
+           
+
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Mikael</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Rafael</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td class="destaque">Gabriel</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Rodrigo</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>roberta</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Jornal</td>
+        </tr>
+    </table>
+</body>
+</html>
