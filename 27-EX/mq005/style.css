@@ -29,7 +29,7 @@ span#burguer:hover{
     color: black;
 }
 menu{
-    background-color: #4c5e91;
+    
     display: none;
 }
 menu > ul{
@@ -42,6 +42,7 @@ menu a{
      text-align: center;
      background-color: rgba(0, 0, 0, 0.107);
      color: white;
+     background-color: red;
      border-top: 2px solid gray;
 }
 menu a:hover{
